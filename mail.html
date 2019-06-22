@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+  body{
+    background-color: #00004c;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .bg{
+    widht: 100%;
+    padding: 100%;
+    margin: 0px;
+    background-color: rgba(52, 52, 74, 1);
+    padding: 30px 0px 30px 0px;
+  }
+
+  .content{
+    width: 70%;
+    height: auto;
+    min-height: 200px;
+    /* border: 2px inset #CCC; */
+    /* background-color: #505558; */
+    padding: 10px 38px;
+    color: #dadada;
+    font-size: 15px;
+  }
+  #footer{
+    font-size: 11px;
+    font-weight: 500;
+  }
+  </style>
+</head>
+<body>
+  <div class="bg">
+    <table widhth="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <div class="content">
+                {{ content }} <br><br><br>
+
+                <!-- Optional -->
+                <div id="footer">
+                <!-- Footer text here -->
+              </div>
+
+            </div>
+          </td>
+        </tr>
+    </table>
+</body>
+</html>
